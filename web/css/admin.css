@@ -1,0 +1,67 @@
+a {
+    cursor: pointer;
+}
+
+.navbar-brand > img {
+    margin-top: -8px;
+}
+
+.kv-editable-link:hover {
+    text-decoration: none;
+}
+
+.formTable ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.formTable td {
+    vertical-align: top;
+}
+
+.fnSetMailed {
+    border-bottom: 1px dotted;
+}
+
+.fnSetMailed:hover {
+    border-bottom: 1px solid;
+    text-decoration: none;
+}
+
+.group {
+    padding: 10px;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    margin: 10px auto;
+    border-radius: 4px;
+    display: none;
+}
+
+.group label {
+    font-weight: normal;
+}
+
+.device-group {
+    padding: 0;
+    max-height: none;
+}
+
+.device-group .panel-body {
+    max-height: 200px;
+    overflow-y: auto;
+    padding-bottom: 0;
+}
+
+.device-search {
+    position: relative;
+}
+
+.clear-search {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #888;
+    cursor: pointer;
+    display: none;
+}

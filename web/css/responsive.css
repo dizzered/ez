@@ -1,0 +1,128 @@
+@media screen and (max-width: 800px) {
+    #conditionRadio, #conditionRadioSingle, #editConditionRadio {
+        float: none;
+        width: 96%;
+        padding: 0;
+        margin: 0 auto 20px;
+        display: block;
+    }
+    .btn-condition.btn-group > .btn {
+        width: 100%;
+    }
+    .phone-desc-wrapper {
+        width: 96%;
+        box-sizing: border-box;
+        margin: auto;
+        float: none;
+        border-left: none;
+        height: auto;
+        padding: 0;
+    }
+    .fn-phone-single .phone-desc-wrapper {
+        height: auto;
+    }
+    .phoneCart, .phoneCartSingle {
+        display: none;
+    }
+    .phoneCartTop {
+        display: block;
+        float: none;
+        margin: 0 auto 20px;
+        height: 75px;
+        font-size: 32px !important;
+        position: static;
+        width: 100%;
+    }
+    .corporate-note {
+        position: relative;
+        width: auto;
+        margin-top: 65px;
+    }
+    #addPhoneDlg .modal-dialog, .phone-descr, #hiwTabs {
+        width: 96%;
+    }
+    #addPhoneDlg .phone-dlg {
+        width: 100%;
+    }
+    .selector a.elem, .elem-container a.elem {
+        width: 33.3333%;
+    }
+    #hiwTabs .ui-tabs-panel {
+        padding: 0;
+    }
+    .payment_button.top {
+        display: none;
+    }
+    .cart-item div.td {
+        padding-top: 0 !important;
+    }
+    .cart .cart-item div.price {
+        width: 75%;
+    }
+    .payment-left {
+        float: none;
+        border-right: 0;
+        width: auto;
+        padding-top: 20px !important;
+        height: auto !important;
+        border-bottom: 1px solid #eeeeee;
+    }
+    .payment-inputs {
+        width: 295px;
+    }
+    .bt-orange.payment_button, .cart .total {
+        float: none;
+    }
+}
+@media screen and (max-width: 640px) {
+    .insidesearch {
+        width:95%;
+    }
+    #searchnew .form .bt-search {
+        width: 20%;
+    }
+    #searchnew .form input[type=text], .search-container #searchnew .form input[type=text] {
+        width: 77%;
+        padding: 10px 1%;
+    }
+    .brands a.elem, .selector a.elem, .elem-container a.elem {
+        width: 50%;
+    }
+    .phones-filters span {
+        display:block;
+    }
+    .easy-container .easy-link {
+        width: 100%;
+    }
+    .btn-condition.btn-group > .btn.active div.left, .btn-condition.btn-group > .btn:hover div.left, .btn-condition.btn-group > .btn div.left {
+        float: none;
+        border-right: 0;
+        width: auto;
+        padding: 0 !important;
+    }
+    .btn-condition.btn-group > .btn.active div.right, .btn-condition.btn-group > .btn:hover div.right, .btn-condition.btn-group > .btn div.right {
+        float: none;
+        width: auto;
+        text-align: center;
+        border-left: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .btn-condition.btn-group > .btn.active div.right, .btn-condition.btn-group > .btn:hover div.right, .btn-condition.btn-group > .btn div.right {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    h2.slogan {
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .search-wrapper {
+        padding: 15px 0;
+    }
+    .slider-wrapper {
+        height: auto;
+    }
+}

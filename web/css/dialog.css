@@ -1,0 +1,327 @@
+.ui-dialog {
+    border-radius:10px;
+    padding: 0;
+    border: none;
+    box-shadow: 0 0 10px 1px #222;
+}
+.ui-dialog .ui-dialog-content {
+    padding:15px 0;
+}
+.ui-button.ui-state-default.ui-dialog-titlebar-close {
+    width:20px;
+    top:19px;
+    right:1em;
+    margin:0;
+    border:none;
+    background:none;
+    box-shadow:none;
+}
+.phone-dlg {
+    height: auto;
+    display: block;
+    z-index: 101;
+    position:static;
+    margin: 0 auto 50px;
+}
+#addPhoneDlg .phone-dlg {
+    width: 753px;
+}
+#editPhoneDlg .modal-dialog {
+    width: 464px;
+}
+.ui-dialog .ui-dialog-titlebar {
+    font-weight: normal;
+    font-size: 22px;
+    border-radius: 0;
+    padding: .5em 1em;
+    position: relative;
+}
+.ui-dialog .ui-dialog-title {
+    float: left;
+    margin: .1em 0;
+    white-space: nowrap;
+    width: 90%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.btn-condition.btn-group {
+    width:462px;
+    margin-right:0;
+    padding: 0 20px;
+    float:left;
+}
+
+.ui-dialog-content .ui-buttonset label.ui-button-text-only .ui-button-text {
+    padding:0;
+}
+.btn-condition.btn-group > .btn div {
+    float: left;
+    white-space: normal;
+    font-weight: bold;
+}
+
+.btn-condition.btn-group > .btn div.left {
+    color: #bfbfbf;
+    text-align:center;
+    font-size:28px;
+    width:140px;
+    text-shadow: 0 -1px #444, -1px -1px #fff;
+    border-right:1px solid #d3d3d3;
+}
+.cost {
+    color: #0899ff;
+    text-shadow:none;
+    margin: 0;
+
+}
+.btn-condition.btn-group > .btn div.right {
+    padding: 5px 20px;
+    color:#666;
+    width: 256px;
+    text-align: left;
+    font-weight: normal;
+    font-size: 15px;
+    border-left:1px solid #f7f7f7;
+}
+.btn-condition.btn-group > .btn.active div.left,
+.btn-condition.btn-group > .btn:hover div.left {
+    color: #fff;
+    text-shadow: 0 1px #444;
+    border-right:1px solid #2ab5fc;
+}
+.btn-condition.btn-group > .btn.active div.left .cost,
+.btn-condition.btn-group > .btn:hover div.left .cost {
+    color:#fff;
+    text-shadow: 0 1px #444;
+}
+.btn-condition.btn-group > .btn.active div.right,
+.btn-condition.btn-group > .btn:hover div.right {
+    color: #fff;
+    border-left:1px solid #fff;
+}
+.btn-condition.btn-group > .btn {
+    float: none;
+    padding:10px;
+    margin-top:5px;
+    margin-bottom:5px;
+    border-top: 1px solid #ededed;
+    border-left:1px solid #c9c9c9;
+    border-right:1px solid #c9c9c9;
+    border-bottom:1px solid #949494;
+    box-shadow:0 1px 1px #c9c9c9;
+    border-radius:4px !important;
+    background: -webkit-linear-gradient(#f7f7f7, #eeeeee); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#f7f7f7, #eeeeee); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#f7f7f7, #eeeeee); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#f7f7f7, #eeeeee); /* Standard syntax */
+    width:422px;
+}
+.btn-condition.btn-group > .btn.active, .btn-condition.btn-group > .btn:hover {
+    border-top: 1px solid #218bc2;
+    border-left:1px solid #25a0de;
+    border-right:1px solid #25a0de;
+    border-bottom:1px solid #25a8eb;
+    background: #2ab5fc;
+}
+.btn-condition.btn-group > .btn.active, .btn-condition.btn-group > .btn:active {
+    box-shadow: inset 0 2px 3px #26a1e0;
+}
+.phone-desc-wrapper {
+    float: left;
+    padding: 0 20px;
+    width: 291px;
+    color: #666;
+    border-left: 1px solid #eeeeee;
+    position: relative;
+}
+.fn-phone-single .phone-desc-wrapper {
+    height: 431px;
+    margin-top: 5px;
+}
+.phone-desc-wrapper p {
+    font-size:14px;
+    line-height:15px;
+}
+.phone-desc-wrapper p.phone-carrier {
+    color:#ccc;
+    margin-bottom:0;
+    font-size:15px;
+}
+.phone-carrier span {
+    color:#999;
+    font-weight:bold;
+}
+.phone-desc-wrapper h2 {
+    color:#666;
+    font-size:24px;
+    font-weight:bold;
+    margin: 0;
+    margin-bottom:15px;
+}
+.phone-img-wrapper {
+    margin: 10px 0;
+}
+.note-desc {
+    color:#d3dd0d;
+    margin-bottom:10px;
+}
+.phoneContinue {
+    border: 2px #e3e3e3 dashed;
+    border-radius: 10px;
+    color: #999;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    width: 97px;
+    cursor: pointer;
+    float:left;
+    position:relative;
+    line-height:22px;
+    padding:39px 0;
+}
+#phoneContinue:hover {
+    border: 2px #999 dashed;
+}
+#phoneContinue span {
+}
+.phone-img {
+    float:left;
+    width:124px;
+    height:124px;
+    overflow:hidden;
+    margin-right:20px;
+}
+.phone-img img {
+    width:100%;
+}
+.phoneCart, .phoneCartSingle {
+    position:absolute;
+    bottom:0;
+    padding: 10px 0;
+    font-size: 24px !important;
+    width:250px;
+    margin: 0;
+}
+.phoneCartTop {
+    display:none;
+}
+.corporate-note {
+    background: #fcf8e3;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #fad619;
+    margin-bottom:20px;
+    position: absolute;
+    width: 250px;
+    bottom: 45px;
+}
+.fn-phone-single .corporate-note {
+    bottom:50px;
+}
+.corporate-note a {
+    text-decoration:underline;
+}
+.corporate-note h3 {
+    padding-left:28px;
+    background:url(../img/icon_solutions.png) left 2px no-repeat;
+}
+.share-buttons > div {
+    display:inline-block;
+}
+.share-buttons {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.fb_iframe_widget iframe {
+    height:20px !important;
+    width:48px !important;
+}
+
+.share-btn {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    padding: 5px 10px;
+    font-size: 17px;
+    cursor:pointer;
+}
+
+.fb-btn {
+    color:#3b5998;
+}
+
+.fb-btn:hover {
+    background:#3b5998;
+    color:#fff;
+}
+
+.google-btn {
+    color:#dd4b39;
+}
+
+.google-btn:hover {
+    background:#dd4b39;
+    color:#fff;
+}
+
+.twitter-btn {
+    color:#55acee;
+}
+
+.twitter-btn:hover {
+    background:#55acee;
+    color:#fff;
+}
+
+#addPhoneDlg .modal-dialog {
+    width: 755px;
+}
+
+#addPhoneDlg .modal-body, #editPhoneDlg .modal-body {
+    padding: 0;
+}
+
+#addPhoneDlg .modal-header, #editPhoneDlg .modal-header {
+    padding: .5em 1em;
+    background: #2bb7ff;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 6px 6px 0 0;
+}
+
+#addPhoneDlg .modal-header h4, #editPhoneDlg .modal-header h4 {
+    font-size: 22px;
+    white-space: nowrap;
+    width: 90%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: .1em 0;
+    line-height: 1.5em;
+}
+
+#addPhoneDlg .close, #editPhoneDlg .close {
+    font-size: 30px;
+    opacity: .5;
+}
+
+#addPhoneDlg .ui-dialog .ui-dialog-titlebar {
+    display: none;
+}
+
+#addPhoneDlg .phone-dlg, #editPhoneDlg .phone-dlg {
+    box-shadow: none;
+    margin: auto;
+}
+#editPhoneDlg .button-group {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 20px 0;
+}
+#editPhoneCart {
+    width: 100%;
+    font-size: 19px;
+}
