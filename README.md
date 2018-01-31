@@ -1,2 +1,4 @@
-Yii 2 Basic Project Template
+Small web-shop (mobile devices)
 ============================
+
+Yii2 Basic Template
